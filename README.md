@@ -15,5 +15,9 @@ PyPy        - Subset of Python
 ## How it works
 
 Python Code -> CPython (Python Compiler) -> Python Bytecode
-
 Python Bytecode -> Python Virtual Machine -> Machine Code (Platform specific)
+
+For Java,
+
+Python Code -> Jython (Java based Implementation) -> Java Bytecode
+Java Bytecode -> JVM (Platform specific) ->  Machine Code (Platform specific)
